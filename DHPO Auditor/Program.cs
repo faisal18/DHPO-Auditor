@@ -17,6 +17,7 @@ namespace DHPO_Auditor
         static void Main(string[] args)
         {
             Control();
+
         }
 
         public static string baseDir = ConfigurationManager.AppSettings.Get("baseDir");
